@@ -1,5 +1,5 @@
 
-//author name Parveen
+
 package BasicJava;
 
 import java.util.Scanner;
