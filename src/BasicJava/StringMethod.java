@@ -7,7 +7,14 @@ public class StringMethod {
         String s1="Selenium";
         System.out.println(s1.toUpperCase());
         System.out.println(s1.toLowerCase());
-
+        String x=null;
+        /*if(x==null) {
+        	System.out.println(x);
+        }*/
+        
+        	
+        
+        
         // String Trim()
 
         System.out.println(s1.startsWith("eSe"));

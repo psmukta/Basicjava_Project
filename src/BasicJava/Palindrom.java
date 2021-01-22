@@ -14,6 +14,7 @@ public class Palindrom {
 	     
 	      for (int i = length - 1; i >= 0; i--)
 	         reverse = reverse + original.charAt(i);
+	      
 	         
 	      if (original.equals(reverse))
 	         System.out.println("The string is a palindrome.");

@@ -10,7 +10,9 @@ import java.util.Vector;
 
 public class Tanvir {
 	public static void main(String[] args) {
-		Stack s = new Stack();
+		
+		
+/*		Stack s = new Stack();
 		System.out.println("stack capacity / size / element: "+s.capacity()+" / "+s.size()+" / "+s);
 		s.add(1);s.add(10);s.add(3);s.add(4);
 		System.out.println("stack capacity / size / element: "+s.capacity()+" / "+s.size()+" / "+s);
@@ -38,6 +40,6 @@ public class Tanvir {
 		System.out.println("s(2)"+s);
 		System.out.println(s);
 		
-		
+*/		
 	}
 }
