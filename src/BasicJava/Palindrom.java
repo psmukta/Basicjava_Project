@@ -8,12 +8,14 @@ public class Palindrom {
 	      Scanner in = new Scanner(System.in);
 	     
 	      System.out.println("Enter a string to check if it is a palindrome");
-	      original = in.nextLine();
-	     
+	      original = in.nextLine();	     
 	      int length = original.length();
 	     
-	      for (int i = length - 1; i >= 0; i--)
-	         reverse = reverse + original.charAt(i);
+	      for (int i = length - 1; i >= 0; i--) {
+	    	  System.out.println("old: "+reverse);
+		         reverse = reverse + original.charAt(i);
+		    	  System.out.println("after add: "+reverse+"\n---------------");
+	      }
 	      
 	         
 	      if (original.equals(reverse))

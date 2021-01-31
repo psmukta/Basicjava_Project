@@ -15,9 +15,11 @@ public class HowToReverseInteger {
 		System.out.println("-2----------");
 		System.out.println("Reverse of given number : "+sb.reverse());
 		String S="Selenium";
+		String S1="racecar";
 		StringBuffer sb1=new StringBuffer(String.valueOf(S));
-		System.out.println("Reverse of given String "+sb1.reverse());
-		
+		StringBuffer sb2= new StringBuffer(String.valueOf(S1));
+		//System.out.println("Reverse of given String "+sb1.reverse());
+		System.out.println("Reverse of given String:  "+sb2.reverse());
 		String test ="abc";
 		System.out.println("old text: "+test);
 		

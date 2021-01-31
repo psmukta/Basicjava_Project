@@ -7,11 +7,17 @@ public class HowToSwapTwoString {
 		String S2="You";
 		System.out.println("before   :"+S1+"  "+S2);
 		//Concatenate both the string S1 and S2 and store it in S1
+		/*
 		S1=S1+S2;
 		S2=S1.substring(0, S1.length()-S2.length());
 		S1=S1.substring(S2.length());
 		System.out.println("after   :"+S1+"  "+S2);
-		
+		*/
+		String temp = S1;
+		S1=S2;
+		S2=temp;
+		System.out.println(S1+" : "+S2);
+		System.out.println(temp);
 
 	}
 

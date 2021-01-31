@@ -9,7 +9,7 @@ public class StringSplit {
 			System.out.println(sp);
 			
 		}*/
-		
+		String name="Parveen Sultana";
 		System.out.println(mail.endsWith("com"));
 		System.out.println(mail.charAt(7));
 		System.out.println(mail.charAt(13));
@@ -24,7 +24,15 @@ public class StringSplit {
 		String domain=mail.substring(indexOfDot1+1);
 		System.out.println(provider);
 		System.out.println(domain);
-		
+		String[] NM=name.split(" ");
+		//String[] sp1=NM;
+		//String[] sp1=NM;
+		System.out.println(NM[0]);
+		//System.out.println(sp1[0]);
+		for(String sp:NM) {
+			System.out.println(sp);
+		}
+	
 		
 	}
 
